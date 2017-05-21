@@ -1,0 +1,41 @@
+chmod
+改变文件或目录权限
+change the permissions mode of a file
+路径：/bin/chmod
+chmod [{ugo}{+-=}{rwx}][文件或目录]
+      [mode=421][文件或目录]
+$chmod g+w file1
+赋予file1所属组写权限
+
+r 读权限    列出文件目录的内容
+W 写权限     可在目录中创建、删除文件
+x 执行权限    可进入目录
+
+
+chown
+改变文件或目录的所有者
+change file ownership
+/bin/chown
+chown[用户][文件或目录]
+$chown nobody file1
+改变file1的所有者为nobody
+
+
+
+chgrp
+改变文件或目录所属组
+$chgrp adm file1
+
+
+umask
+显示、设置文件缺省权限
+
+
+find
+查找
+/usr/bin/find
+find [搜索路径][关键字]
+$find /etc -name init
+在目录/etc中查找init
+
+
