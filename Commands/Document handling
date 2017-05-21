@@ -45,3 +45,84 @@ mkdir
 $mkdir newdir
 
 
+cp
+复制文件或目录
+原意：copy
+路径：/bin/cp
+权限：所有用户
+使用：
+ cp -R [源文件或目录][目的目录]
+    -R 复制目录
+ $cp file1 file2 dir1
+  将文件file1，file2复制到dir1目录下
+ $cp -R dir1 dir2
+ 将dir1下所有文件及子目录复制到dir2
+ 
+ 
+mv
+移动文件、改名
+原意：move
+路径：/bin/mv
+使用：
+ mv[源文件或目录] [目的目录]
+  $mv file1 file3
+  将当前目录下file1文件改名为file3
+  $mv file2 dir2
+  将file2文件到dir2目录下
+  
+ 
+ 
+rm
+删除文件
+原意：remove
+路径：/bin/rm
+rm -r [文件或目录]
+rm -r 删除目录
+$rm file3 删除file3
+$rm -r dir1 删除目录dir1
+
+
+cat
+显示文件内容
+原意：concatenate and display files
+/bin/cat
+cat [文件名]
+范例：
+ $cat /etc/issue
+ $cat /etc/services
+ 
+ 
+more
+分页显示文件内容
+/bin/more
+more [文件名]
+ (空格)或f  显示下一页
+ (Enter)   显示下一行
+ q或Q  退出
+范例：
+ $more /etc/services
+
+
+
+head 
+查看文件前几行
+/bin/head
+语法：
+ head -num[文件名]
+      -num  显示文件前几行
+      
+$head -20 /etc/services
+
+
+
+tail
+查看文件后几行
+
+
+ln
+产生链接文件
+原意：link
+/bin/ln
+ln -s [源文件][目标文件]
+   -s 创建软连接
+$ln -s /etc/issue /issue.soft
