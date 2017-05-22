@@ -32,3 +32,10 @@ grep[制定字符][源文件]
 
 
 
+
+find
+查找
+/usr/bin/find
+find [搜索路径][关键字]
+$find /etc -name init
+在目录/etc中查找init
