@@ -31,11 +31,4 @@ umask
 显示、设置文件缺省权限
 
 
-find
-查找
-/usr/bin/find
-find [搜索路径][关键字]
-$find /etc -name init
-在目录/etc中查找init
-
 
