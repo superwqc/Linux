@@ -1,0 +1,24 @@
+gzip
+压缩文件
+压缩后文件格式 .gz
+
+
+gunzip
+解压文件
+$gunzip file.gz  解压格式为.gz的文件
+
+
+tar
+打包目录
+tar 选项[cvf] [目录]
+    -c  产生.tar打包文件
+    -v 显示详细信息
+    -f 制定压缩后的文件名
+    -z 打包同时压缩
+压缩文件格式： .tar.gz
+$tar -zcvf dir1.tar.gz dir1
+
+
+
+
+
