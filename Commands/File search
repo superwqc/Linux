@@ -1,0 +1,34 @@
+which
+显示系统命令所在目录
+所在路径：/usr/bin/which
+which[命令系统]
+范例：
+$which ls
+
+
+
+locate
+寻找文件或目录
+语法:locate [搜索关键字]
+/usr/bin/locate
+范例：
+$locate file  列出所有跟file相关的文件
+
+
+updatedb
+建立整个系统目录文件的数据库
+/usr/bin/updatedb
+执行权限：root
+范例:
+#updatedb 
+
+
+
+grep
+在文件中搜寻字符串匹配的行并输出
+/bin/grep
+grep[制定字符][源文件]
+#grep ftp /etc/services
+
+
+
