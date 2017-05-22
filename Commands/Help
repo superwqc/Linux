@@ -1,0 +1,25 @@
+man
+获得帮助信息
+原意：manual
+/usr/bin/man
+man[命令或配置文件]
+范例：
+$man ls   查看ls命令的帮助信息
+$man services  查看配置文件services的帮助信息
+
+
+
+info
+获得帮助信息
+原意：information
+/usr/bin/info
+info[任何关键字]
+范例;
+$info ls  查看ls指令的帮助信息
+
+
+
+whatis
+获得索引的简短说明信息
+执行权限：All User,Root
+whatis apropos [关键字]
