@@ -1,0 +1,15 @@
+shutdown 
+关机
+/usr/sbin/shutdown 
+权限:root
+#shutdown -h now
+
+
+reboot
+重启系统
+/usr/sbin/reboot
+权限：root
+#reboot
+
+
+
