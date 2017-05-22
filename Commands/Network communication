@@ -1,0 +1,24 @@
+write
+向另一个用户发送信息，Ctrl+D作为结束
+write <用户名>
+/usr/bin/write
+$write webmaster
+
+
+
+wall
+向所有用户广播信息
+/usr/bin/wall
+wall [message] [文件名]
+$wall Happy New Year
+
+
+ping
+测试网络连通性
+/usr/sbin/ping
+ping 选项 ip地址
+$ping 192.68.1.1
+
+
+ipconfig
+查看网络配置信息
